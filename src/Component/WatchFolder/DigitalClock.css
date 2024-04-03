@@ -1,0 +1,18 @@
+.digitalClock {
+    font-size: 3rem; 
+    font-family: 'Roboto', sans-serif; 
+    color: #333; 
+    background-color: #fff; 
+    padding: 10px; font-weight: 800;
+    border-radius: 5px; margin: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   width: 25%;background-color: aquamarine;
+  }
+  
+  /* Add media queries for responsive design if needed */
+  @media screen and (max-width: 768px) {
+    .digitalClock {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+      padding: 8px; /* Adjust padding */
+    }
+  }

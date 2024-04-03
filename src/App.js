@@ -1,23 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Watch from './Component/WatchFolder/Watch';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  BrowserRouter,
+} from "react-router-dom";
+import AllPage from './Component/AllPages/AllPage';
+import Bingo from './Component/BingoFolder/Bingo';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route
+            path="/"
+            element={<AllPage />}
+          ></Route>
+           <Route
+            path="/watch"
+            element={<Watch />}
+          ></Route>
+          <Route
+            path="/bingo"
+            element={<Bingo />}
+          ></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
