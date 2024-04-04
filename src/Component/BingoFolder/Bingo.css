@@ -22,4 +22,5 @@
     height: 50px;
     border: 1px solid black;
   }
-.player_input{height: 5vh;width: 5%;padding-left: .5rem;}
+.player_input{height: 7vh;width: 6%;padding-left: .5rem;}
+.cross{background-color: red;color: white;font-weight: 900;padding:1rem 1.2rem 1rem 1.2rem;}
