@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navlogo img {
+    width: 7vw;
+    height: auto;
+}
+
+.nav_main {
+    display: flex;
+    background-color: #131921;
+    align-items: center;
+    height: 60px;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.search_bar {
+    display: flex;
+}
+
+.search_bar input {
+    height: 38px;
+    border: none;
+    width: 35vw;
+    outline: none
+}
+
+.search_bar input::placeholder {
+    padding-left: 10px;
+}
+
+form select {
+    height: 38px;
+    width: 10vw !important;
+    outline: none;
+    border: 1px solid rgb(227, 224, 224);
+
+    border-radius: 5px 0px 0px 5px;
+}
+
+.search_bar button {
+    height: 38px;
+    outline: none;
+    border: none;
+    background-color: #febd69;
+    border-radius: 0px 5px 5px 0px;
+    width: 3rem;
+}
+
+.search_box {
+    font-size: 1.4rem;
+}
+
+.nav_location {
+    display: flex;
+}
+
+.loaction_icon {
+    font-size: 25px
+}
+
+.location_heading b {
+    font-size: 13px;
+}
+
+.langu_age h5 {
+    font-size: 14px;
+}
+
+.account_list h5 {
+    font-size: 14px;
+}
+
+.return_orders h6 {
+    font-size: 12px;
+}
+
+.return_orders b {
+    font-size: 14px;
+}
+
+.cart_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.cart_icons {
+    width: 55px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;margin-top: 6px;
+
+}
+
+
+.cart_icons h6 {
+    margin-left: -2rem;
+    margin-top: -1.7rem;
+}
+
+.cart_div h1 {
+
+    font-size: 14px;
+    margin-left: -1.2rem;
+}
+
+.cart_heading h4 {
+    font-size: 15px;
+    margin-top: 1.7rem;
+}
+
+.cart_value {
+    border: 1px solid white;
+    padding: 4px;display: flex;align-items: center;
+    border-radius: 50%;height: 20px;width:20px ;text-align: center;
+}

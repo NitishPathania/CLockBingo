@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.card_discount {
+    color: #CC0C39;
+    font-size: 12px;
+}
+
+.inner_mobile_card {
+    width: 100%;
+    ;
+    /* background-color: #f7f8f8; */
+    border-radius: 5px;
+    border: 1px solid rgb(226, 223, 223);
+    ;
+    padding: 1rem;
+}
+
+.inner_card_deal {
+    padding: 4px 6px;
+    background-color: #CC0C39;
+    width: 40%;
+    margin: 5px;
+    font-weight: 400;
+    color: white;
+
+}
+
+.inner_card_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner_mobile_card p {
+    font-size: 13px;
+}
+
+
+.card_discount {
+    display: flex;
+    align-items: center
+}
+
+.mobile_parent_div {
+    padding: 5px;
+    display: flex;
+    /* background-color: #f7f8f8; */
+    ;
+    margin-top: -2px !important;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    margin: 1.8rem;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.mobile_heading_innerr {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+   
+}
+
+.mobile_heading_innerr h4 {
+    font-size: 21px;
+    /* padding: 1rem; */
+    padding: 20px;font-weight: 700px;
+   
+    padding-left: 1.9rem !important;
+}
+
+.mobile_heading_innerr span {
+    font-size: 14px;
+    padding-left: 10px;
+}
+.mobile_heading_innerr  a{text-decoration: none;}

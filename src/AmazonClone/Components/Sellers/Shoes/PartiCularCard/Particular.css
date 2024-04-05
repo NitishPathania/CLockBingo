@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.inner_carousel {
+    min-height: 200px !important;
+}
+
+/* .inner_carousel{height: 200px;} */
+/* .slide {height: fit-content}
+.inner_carousel div{width: 80%;height: 100%;margin:auto;margin-top: 2rem;}
+.inner_carouse img{height: 100% !important;
+    width: auto !important;vertical-align: top;}
+.main_caursel_div{height: auto;} */
+/* .inner_carouse div img{width:40% !important;height: 40% !important;background-color: aqua;} */
+.inner_carousel_img {
+    width: 70% !important;
+    height: 60% !important;
+}
+
+.inner_carousel div {
+    margin: auto;
+}
+
+.extra_store_heading a {
+    font-size: 14px;
+    color:
+        #007185;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.col_discri_card h5 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.col_rating_card h6 {
+    font-size: 14px;
+    color: #007185;
+    line-height: 20px;
+}
+
+.a_search_rating_bottom {
+
+    color: #007185;
+    text-decoration: none;
+
+}
+
+.hr_card_item {}
+
+.col_price_card span {}
+
+.col_price_card .span_one_price {
+    font-size: 24px !important;
+    color: #CC0C39;
+    font-weight: 300 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Styles for the first span child of .col_price_card */
+}
+
+.col_price_card .span_two_price {
+    padding-left: 10px;
+    font-size: 32px;
+    color: #CC0C39;
+    font-weight: 300 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Styles for the first span child of .col_price_card */
+}
+
+.limited_div {
+    background-color: #CC0C39 !important;
+    padding: 4px 8px 4px 8px;
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 4px;
+}
+
+.col_price_card b {
+    text-decoration: line-through !important;
+    line-height: 40px;
+}
+
+.col_price_card h6 {
+    font-size: 15px;
+    color: #565959;
+}
+
+.col_rating_card {
+    display: flex;
+    align-items: center;
+}
+
+.parten_offers {
+    display: inline-block;
+    position: relative;
+    vertical-align: baseline;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin-top: .2rem;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .3);
+    margin-left: .1rem;
+    width: 100%;
+}
+
+.inner_parten_offers {
+    padding: 7px 10px;
+}
+
+.inner_parten_offers h6 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0F1111;
+}
+
+.inner_parten_offers p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #9e9f9f
+}
+
+.return_Exchange_div img {
+    height: 35px !important;
+    width: 35px !important;
+    min-width: 35px;
+    min-height: 35px;
+    text-align: center;
+}
+
+.return_Exchange_div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.return_Exchange_div p {
+    font-weight: 400 !important;
+    font-style: normal !important;
+    display: inline-block;
+    text-transform: none !important;
+    color: #007185 !important;
+    text-decoration: none !important;
+    font-size: 12px;
+}
+
+.return_Exchange_div {
+    display: flex;
+    justify-content: center;
+}
+
+.return_Exchange_div div {
+    width: 50%;
+}
+
+.return_Exchange_div img {
+    margin-left: 32px;
+}
+
+.size_button_for_product label {
+    color: #9e9f9f;
+    font-size: 14px;
+    padding: 0px 0px 2px 2px;
+}
+
+.size_button_for_product select {
+    border-radius: 4px;
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+    line-height: 19px;
+    width: 25%;
+    outline: none;
+    color: #0F1111;
+    border: 1px #ddd solid;}
+
+.middle_content_card{overflow: auto;} 
+
+.product_details h2{    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-bottom: 14px;
+    padding-top: 4px;}
+    .product_details ul li{font-size: 14px;}
+    .product_details h3{ font-size: 18px;font-weight: 700;
+        line-height: 24px;
+        padding-bottom: 14px;
+        padding-top: 4px;}
+        .product_details p{font-size: 14px;}
+        .middle_content_card{
+            height: 100vh;
+            overflow: auto;
+        }

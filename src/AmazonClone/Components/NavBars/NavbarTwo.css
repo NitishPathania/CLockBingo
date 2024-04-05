@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.parent_sec_nav {
+    max-height: 39px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    background-color: #232f3e;
+    justify-content: space-evenly;
+    
+}
+
+.parent_sec_nav a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    transition: all 0.8s;
+}
+.parent_sec_nav a:hover{
+    border:0.5px solid;
+   }
+
+.all_overlay button {
+    margin: 5px;
+    border: none;
+    background-color: #232f3e;
+    color: white;
+}
+
+.all_overlay span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fa_bars {
+    width: 23px;
+    height: 19px;
+    background-position: -172px -255px;
+}
+
+.btn-primary:hover {
+    background-color: transparent !important;
+}
+
+.offcanvas_title {
+    border: 1px solid black;
+    height: 30px;
+    width: 15vw;
+    display: flex;
+    ;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.avtar_image {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.avtar_image img {
+    width: 20px;
+    height: auto;
+}
+
+.main_background_title_div {
+    background-color: #232f3e;
+    width: 28vw;
+    margin: 0%;
+}
+
+.heading_offcanvas img {
+    height: 40px;
+    border-radius: 50%;
+    width: 40px
+}
+
+.heading_offcanvas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    padding-top: 10px;
+    margin-left: 20px;
+
+}
+
+.heading_offcanvas h4 {
+    font-size: 19px;
+    color: white;
+    font-weight: bold;
+    padding-top: .8rem;
+}
+
+.offcanvas-header {
+    background-color: #232f3e;
+}
+
+.inner_help_setting li {
+    list-style-type: none;
+}
+
+.inner_help_setting a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #111;
+}
+
+.inner_help_setting h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.inner_help_setting ul {
+    line-height: 40px;
+}
+
+
+
+
+

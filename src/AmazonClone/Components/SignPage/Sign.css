@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+.create-account-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.create-account-container h2 {
+  margin-bottom: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.create-account-container input[type='text'],
+ .create-account-container input[type='password'],
+select {
+  width: calc(100% - 45px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.name-fields,
+.mobile-fields {
+  display: flex;
+}
+
+.name-fields input[type='text'] {
+  width: 48%;
+}
+
+.mobile-fields select {
+  width: 30%;
+  margin-right: 5px;
+  height: 50px;
+}
+
+.mobile-fields input[type='text'] {
+  width: calc(70% - 5px);
+}
+
+small {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.8em;
+}
+
+.create-account-container button {
+  background-color: #ffd814;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+/* button:hover {
+    background-color: #f60;
+  } */
+
+.verify-mobile {
+  margin-top: 20px;
+}
+
+.account-actions {
+  margin-top: 20px;
+}
+
+.account-actions p {
+  margin-bottom: 10px;
+}
+
+.account-actions a {
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.account-actions a:hover {
+  text-decoration: underline;
+}
+
+.field_width {
+  width: 100% !important;
+}
+
+.button_verify {
+  height: 100%;
+  width: 100%;
+}
+
+.account-actions a {
+  text-decoration: none;
+}
+
+.color_red {
+  color: red;
+}
+
+
+.logo_img img {
+  height: 100%;
+  width: auto;
+  margin-top: 6rem;
+
+
+}
+
+.logo_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  margin: 30px auto;
+  height: 100px;
+  background-color: white;
+}

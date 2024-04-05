@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.main_best_seller_container {
+    margin-top: 2rem;
+}
+
+.heading_bestseller h3 {
+    font-size: 28px;
+}
+
+.heading_bestseller p {
+    font-size: 12px;
+    line-height: 16px;
+    ;
+    color: #666;
+    ;
+}
+
+.inner_left_col h6 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.inner_left_col {
+    padding: 1rem;
+}
+
+.inner_bottom_anchore {
+    padding-left: 1rem;
+}
+
+.inner_bottom_anchore a {
+    line-height: 35px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black
+}
+
+.inner_bottom_anchore a:hover {
+    border-bottom: 1px solid black;
+}
+/* .color_rating{} */

@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+*{box-sizing: border-box;margin: 0%;padding: 0%;}
+.button_back_to{height:60px ;background-color: #37475a;}
+.button_back_to h4{text-align: center;padding-top: 1.5rem;
+    font-size: 13px;color: white;}
+    .button_back_to a{color: white;text-decoration: none;}

@@ -1,0 +1,25 @@
+.content_shoping_cart {
+    display: flex;
+    flex-direction: column;
+}
+
+.content_shoping_cart select {
+    width: max-content;
+    font-size: 13px;
+    height: 35px;
+    margin-top: 1rem;
+}
+
+.content_shoping_cart p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+.inner_quality_delete_content {
+    display: flex;
+    height:30%;width:fit-content;cursor: pointer;
+    align-items: center;font-size: 15px;padding-top: 1rem                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
+    /* justify-content: center; */
+}
+
+/* .inner_quality_delete_content_para{padding: 1rem;} */

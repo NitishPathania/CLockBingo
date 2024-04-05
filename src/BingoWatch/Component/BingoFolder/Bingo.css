@@ -1,0 +1,74 @@
+.bingo {
+  text-align: center;
+  background-image: url("https://t3.ftcdn.net/jpg/05/02/58/24/240_F_502582439_Skep1g2BJM1iafUyT3nD3xxeh2EXx1U1.jpg");
+  background-size: 100% 100%;background-repeat: no-repeat;height: 100vh;
+object-fit: cover;border: 1px solid black;
+
+  
+}
+.bingo_heading{color: white;font-family:'Times New Roman', Times, serif}
+/* .h1{color: white !important;} */
+.player_heading{color: white;}
+.bingo-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bingo-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+}
+
+.bingo-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  background-color: #fff;
+  color: #000000;
+}
+
+.player_input {
+  height: 7vh;
+  width: 6%;
+  padding-left: .5rem;border-radius: 5px;border: none;background-color: rgb(220, 212, 212);
+}
+
+.cross {
+  background-color: red;
+  color: white;
+  font-weight: 900;
+  padding: 1rem 1.2rem 1rem 1.2rem;
+}
+
+.homeIcon {
+  font-size: 2rem;;color: black;background-color: #fff;border-radius: 50%;
+}
+
+.iconDiv {
+  text-align: start;
+  margin: 1rem;
+}
+
+button {
+  height: 5vh;
+  margin: 1rem;
+  border-radius: 5px;
+  font-weight: 700;
+  width: 8%;
+  border: none;
+  padding: 3px;
+}
+span{padding: 1rem;}
+h5{
+  /* border: 1px solid black; */
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: white;
+letter-spacing: 1.1rem;
+}
+/* .inner_bingo_div{background-color: red;display: flex;align-items:center;flex-direction: column;} */
+.player_heading_bingo{color: white}

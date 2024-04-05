@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    justify-content: center;
+   
+    height: max-content;
+  }
+  
+  .signin-container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .signin-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .signin-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  
+  .signin-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+  .signin-form button {
+    background-color: #ffd814;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  .error-message{
+    color: red;
+  }
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 10px;padding: 10px;
+  }
+  
+  .signup-link {
+    text-align: center;
+  }
+  
+  .signup-link a {
+    color: #0066c0;
+    text-decoration: none;
+  }
+  .heading-signin{
+height: 100px;
+width: 300px;
+margin: 40px auto;
+
+display: flex;
+align-items: center;
+justify-content:center ;
+  } 
+  .heading-signin img{
+    height: 100%;
+    width: auto;
+    margin-top: 6rem;
+  } 

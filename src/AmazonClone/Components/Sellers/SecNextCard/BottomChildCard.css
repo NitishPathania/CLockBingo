@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.inner_bottom_card_img img {
+    height: 210px;
+    aspect-ratio: auto 185 / 210;
+    width: 185px;
+    mix-blend-mode:color-dodge !important;
+}
+/* .inner_bottom_card_img {mix-blend-mode: darken;} */
+.inner_right__styling_ideas_slider {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inner_bottom_card_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.inner_bottom_card_img_heading h5 {
+    text-align: center;
+    padding: 1.3rem 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.inner_bottom_card_img_discr p {
+    text-align: center;
+    font-size: 14px;
+    /* border: 1px solid black; */
+    width: 60%;
+    margin: auto;
+}
+
+.inner_bottom_card_img_discr {
+    display: flex;
+    align-items: center;
+}
+
+.inner_bottom_card_img_rating h5 {
+    font-size: 12px;
+    margin: 0px;
+}
+
+.inner_bottom_card_img_price h6 {
+    font-size: 21px;
+    text-align: center;
+}
+
+.inner_bottom_card_img_rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner_bottom_card_img_price .rup_icon_inner_bottom_card_img {
+    font-size: 12px;
+}
+
+.inner_right__styling_ideas_slider .inner_right_div {
+    width: 100%;
+}
+
+/* .slick-prev{background-color: aqua;margin-right: -1rem;} */
+/* .slick-next{background-color: aqua;} */

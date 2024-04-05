@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.card_seller {
+    height: max-content;
+    width: 25%;
+    /* border: 1px solid black */
+}
+
+.zg-bdg-text {
+    width: 12%;
+    /* border: 1px solid black; */
+    font-size: 12px;
+    text-align: center;
+
+    height: 25px;
+
+
+    background-color: #c45500;
+}
+
+.zg-bdg-text p {
+    padding: 0 8px;
+    color: white;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.seller_trend_no {
+    display: flex;
+    /* margin: 10px; */
+}
+
+.zg-bdg-text_arrow {
+    color: #c45500;
+    border-right: 10px solid transparent;
+    border-top: 25px solid;
+    height: 0;
+    width: 0;
+
+
+}
+
+.seller_card_img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.seller_card_category p {
+    font-size: 14px;
+    font-family: Arial,
+        Helvetica, sans-serif;
+    color: #007185;
+}
+
+.seller_card_rating p {
+    color: #007185;
+}
+
+.seller_card_category p:hover {
+    text-decoration: underline;
+    color: #B12704
+}
+
+.seller_card_rating span {
+    font-size: 12px;
+    color: #007185
+}
+
+.rupee_icons {
+    color: #B12704 !important;
+}
+
+.seller_card_price h5 {
+    color: #B12704 !important
+}
+
+.rating_icon {
+    color: #c45500;
+}
+
+.best_card_heading {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.best_card_heading h5 {
+    font-size: 24px;
+}
+
+.best_card_heading a {
+    font-size: 14px;
+    padding-left: 9px;
+}
+
+.best_card_heading a {
+    text-decoration: none;
+    color: #007185
+}
+
+.all_best_seller_card {
+    display: flex;
+    flex-wrap: wrap;
+}
